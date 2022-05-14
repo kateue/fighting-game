@@ -163,7 +163,6 @@ const enemy = new Fighter({
 })
 
 
-console.log(player)
 
 const keys = {
 	a: {
@@ -187,6 +186,7 @@ const keys = {
 	}
 
 }
+
 
 
 decreaseTimer()
@@ -373,6 +373,10 @@ window.addEventListener('keyup', (event) => {
 
 	
 })
+
+var song = new Audio();
+song.src = 'fightbeat.mp3';
+song.play();
 
 
 
